@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+	get 'histories/user_histories'
   devise_for :users, controllers: {
           registrations: "users/registrations", sessions: "users/sessions"
         }
